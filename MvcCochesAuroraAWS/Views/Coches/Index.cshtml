@@ -46,7 +46,7 @@
                 @Html.DisplayFor(modelItem => item.conductor)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.imagen)
+                <img src="@item.imagen" style="width:200px;height:200px" />
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
